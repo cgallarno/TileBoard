@@ -175,6 +175,8 @@ var DEFAULT_HEADER = {
    ]
 };
 
+var CONFIGS = {};
+
 window.onerror = function (error, file, line, char) {
    var text = [
       error,
